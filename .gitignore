@@ -9,7 +9,6 @@
 /vendor/bundle
 
 # Ignore all environment files (except templates).
-/.env*
 !/.env*.erb
 !.env*.example
 
@@ -43,7 +42,6 @@
 .idea
 
 # Ignore VS Code
-.vscode/*
 !.vscode/extensions.json
 !.vscode/*.code-snippets
 
@@ -83,9 +81,7 @@ dev-debug.log
 # Dependency directories
 node_modules/
 # Environment variables
-.env
 # Editor directories and files
-.vscode
 *.suo
 *.ntvs*
 *.njsproj
@@ -103,3 +99,4 @@ scripts/
 .windsurfrules
 .cursor/rules/dev_workflow.mdc
 .cursor/rules/taskmaster.mdc
+config.bat
